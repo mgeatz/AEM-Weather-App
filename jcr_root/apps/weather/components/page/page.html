@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<title>${properties.jcr:title}</title>
+		<sly data-sly-call="${clientLib.css @ categories='weather, weather.vendor'}"/>
+
+	</head>
+
+	<body data-sly-use.weather="page.js">
+
+        <sly data-sly-test="${wcmmode.edit}" data-sly-include="/libs/wcm/core/components/init/init.jsp" />
+
+		<img class="${weather.rainText} bg" src="${weather.rainImage}" alt="background_image">
+        <img class="${weather.sunnyText} bg bg-image" src="${weather.sunnyImage}" alt="background_image">
+        <img class="${weather.stormingText} bg bg-image" src="${weather.stormingImage}" alt="background_image">
+        <img class="${weather.partlycloudyText} bg bg-image" src="${weather.partlycloudyImage}" alt="background_image">
+
+    	<header>
+        	<div class="container">
+                <div class="row">
+                    <div class="col-xs-9">
+						<p>${weather.title}<br><sup>${weather.description}</sup></p>
+                    </div>
+                    <div class="col-xs-3">
+						<span class="author">Michael Geatz</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+		<div class="container">
+			<div class="weather-data">
+                <div class="weather-lookup">
+                    <div data-sly-resource="${'content' @ resourceType='foundation/components/parsys'}"></div>
+                </div>
+                <div class="weather-results">
+                    <div>
+						<span id="temp">91</span>
+						<span class="fahrenheit">°F</span>
+					</div>
+                    <div>
+						<span id="condition">Rain</span>
+						<span id="weather-icon"></span>
+					</div>
+					<div class="error-message error">
+						<p>Oops! Something went wrong. Please make sure you are using the proper search format.</p>
+					</div>
+                </div>
+			</div>
+        </div>        
+
+		<footer>
+			<ul>
+				<li></li>
+                <li></li>
+            </ul>
+		</footer>
+
+        <sly data-sly-call="${clientLib.js @ categories='weather'}"/>
+	</body>
+</html>

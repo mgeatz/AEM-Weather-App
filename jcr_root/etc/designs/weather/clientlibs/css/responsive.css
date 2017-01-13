@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    .weather-lookup {
+    	margin: 0 auto;
+        width: 90%;
+    }
+    .weather-results {
+		color: white;
+	    position: absolute;
+        text-shadow: 2px 1px #000;
+    }
+	.weather-data {
+    	width: 100%;
+    }
+}
+@media (min-width: 769px) {
+	.weather-data {
+		width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 4px;
+    }
+    .weather-lookup,
+	.weather-results {
+	    margin: 0 auto;
+    }
+}

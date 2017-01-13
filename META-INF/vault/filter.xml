@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/content/weather"/>
+    <filter root="/etc/designs/weather"/>
+    <filter root="/apps/weather"/>
+    <filter root="/etc/clientlibs/weather"/>
+    <filter root="/content/dam/rain.gif"/>
+    <filter root="/content/dam/sunny.jpg"/>
+    <filter root="/content/dam/stormy.gif"/>
+    <filter root="/content/dam/partly-cloudy.gif"/>
+</workspaceFilter>

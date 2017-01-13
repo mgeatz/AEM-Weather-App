@@ -1,0 +1,86 @@
+body {
+	background: #ccc;
+    margin: 0 auto;
+
+}
+header {
+	background: rgba(51,51,51,0.5);
+    color: #ccc;
+    height: 60px;
+    position: relative;
+    margin: 0 0 40px 0;
+    padding: 10px 0;
+}
+.bg {
+  	position: fixed; 
+    z-index: 0;
+  	top: 0; 
+  	left: 0; 
+	min-width: 100%;
+	min-height: 100%;
+}
+.download-link a {
+	color: #ccc;
+    text-decoration: underline;
+    font-size: 12px;
+}
+.download-link a:hover {
+	color: #ddd;
+}
+.weather-data {
+    background: rgba(51,51,51,0.5);
+    position: relative;
+    padding: 40px;
+}
+.weather-results,
+.title-and-text,
+.search-format {
+    text-align: center;
+    text-shadow: 2px 1px #000;
+    position: relative;
+    color: white;
+}
+.weather-results span {
+    display: inline-block;
+	clear: both;
+    font-size: 45px;
+}
+.search-format {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.lookup-field {
+    width: 90%;
+    margin: 0 auto;
+    padding: 7px;
+    border-radius: 3px;
+    border: 2px solid #536444;
+}
+#get-weather {
+    width: 50%;
+    margin: 20px 0;
+    background: #9fca75;
+    border: 2px solid #92b96c;
+}
+.error {
+	background-color: #c51e1e;
+    padding: 5px;
+    color: #fff;
+}
+.error-message {
+	display: none;
+}
+.bg-image {
+	display: none;
+}
+.centertext {
+    text-align: center
+}
+.author {
+    padding-top: 8px;
+    display: block;
+    float: right;
+}

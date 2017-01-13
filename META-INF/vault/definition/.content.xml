@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2017-01-12T19:38:05.502-06:00"
+    jcr:createdBy="admin"
+    jcr:description=""
+    jcr:lastModified="{Date}2017-01-12T19:38:05.502-06:00"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    buildCount="11"
+    builtWith="Adobe Experience Manager-6.1.0.20150507"
+    dependencies="[]"
+    group="my_packages"
+    lastUnwrapped="{Date}2017-01-12T19:38:05.502-06:00"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2017-01-12T19:38:05.502-06:00"
+    lastWrappedBy="admin"
+    name="weather"
+    requiresRestart="{Boolean}false"
+    requiresRoot="{Boolean}false"
+    version="1.0">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/weather"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/designs/weather"
+            rules="[]"/>
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/weather"
+            rules="[]"/>
+        <f3
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/clientlibs/weather"
+            rules="[]"/>
+        <f4
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/dam/rain.gif"
+            rules="[]"/>
+        <f5
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/dam/sunny.jpg"
+            rules="[]"/>
+        <f6
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/dam/stormy.gif"
+            rules="[]"/>
+        <f7
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/dam/partly-cloudy.gif"
+            rules="[]"/>
+    </filter>
+</jcr:root>

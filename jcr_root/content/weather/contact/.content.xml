@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/weather"
+        cq:lastModified="{Date}2016-10-04T19:38:35.570-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/weather/templates/page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Contact"
+        sling:resourceType="weather/components/page"/>
+</jcr:root>

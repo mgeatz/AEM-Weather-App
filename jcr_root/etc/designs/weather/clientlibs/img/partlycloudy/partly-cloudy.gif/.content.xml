@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="dam:Asset">
+    <jcr:content
+        jcr:lastModified="{Date}2016-10-06T21:09:32.525-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}8"
+            dam:extracted="{Date}2016-10-06T21:09:28.733-05:00"
+            dam:Fileformat="GIF"
+            dam:MIMEtype="image/gif"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}5.083333492279053"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}9.027777671813965"
+            dam:Progressive="no"
+            dam:sha1="17e528164a0c6b42e886786d23188f73bd0e48f8"
+            dam:size="{Long}25362241"
+            dc:format="image/gif"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}366"
+            tiff:ImageWidth="{Long}650"
+            xmp:CreatorTool="Adobe Photoshop CS5 Macintosh"
+            xmpMM:DocumentID="xmp.did:26AFAE34B49511E1BE53E87A9ECFB15E"
+            xmpMM:InstanceID="xmp.iid:26AFAE33B49511E1BE53E87A9ECFB15E"
+            xmpMM:OriginalDocumentID="xmp.did:F77F117407206811A9619D80ECF89A49">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:F77F117407206811A9619D80ECF89A49"
+                stRef:instanceID="xmp.iid:F77F117407206811A9619D80ECF89A49"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
